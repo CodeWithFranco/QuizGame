@@ -14,4 +14,4 @@ class QuizBrain:
     def next_question(self):  # This is a method
         current_question = self.question_list[self.question_number]
         # current_question.text = object.attribute
-        input(f"Q{self.question_number}: {current_question.text} (True/False)")
+        input(f"Q{self.question_number}: {current_question.text} (True/False)\t")

@@ -1,3 +1,4 @@
+
 """
 Author: Franco Nepomuceno
 Description: Using OOP with constructors, methods, and attributes from a loop
@@ -21,4 +22,4 @@ At this point each every item in 'question_bank' is in a memory. An object needs
 the actual question. 
 """
 quiz = QuizBrain(question_bank)  # object for QuizBrain class
-quiz.question_number()
+quiz.next_question()
