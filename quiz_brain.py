@@ -5,7 +5,7 @@
 class QuizBrain:
 
     def __init__(self, q_list):
-        self.question_number = 0  # objects with values doesnt need to have an input
+        self.question_number = 0  # objects with values doesnt need to have an input. It has a default value
         self.question_list = q_list
 
 # TODO: Retrieve the item at the current question_number from the question_list.
@@ -14,4 +14,4 @@ class QuizBrain:
     def next_question(self):  # This is a method
         current_question = self.question_list[self.question_number]
         # current_question.text = object.attribute
-        input(f"Q{self.question_number}: {current_question.text} (True/False)\t")
+        input(f"Q{self.question_number + 1}: {current_question.text} (True/False)\t")
