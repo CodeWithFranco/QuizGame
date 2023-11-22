@@ -12,8 +12,8 @@ from quiz_brain import QuizBrain
 
 question_bank = []
 for item in question_data:
-    question_text = item["text"]  # The word 'text' is in the dictionary / list
-    question_answer = item["answer"]  # The word 'answer' is in the dictionary / list
+    question_text = item["question"]  # The word 'text' is in the dictionary / list
+    question_answer = item["correct_answer"]  # The word 'answer' is in the dictionary / list
     new_question = Question(question_text, question_answer)
     question_bank.append(new_question)
 """
